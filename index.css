@@ -1,0 +1,29 @@
+.carousel-inner img {
+    width: 100%;
+    height: 470px;
+}
+
+.carouse2-inner img {
+    width: auto;
+    height: 200px;
+}
+
+.img2 img{
+    width: 100%;
+    height: 350px;
+}
+
+.img3 img{
+    width: 350px;
+    height: 250px;
+}
+
+.hola div{
+    background-color: yellow;
+}
+
+.rowHola {
+    color: #000000;
+    background-color: #e4e0e0;
+    border-bottom: 1px solid #333333;
+}
