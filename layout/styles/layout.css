@@ -41,6 +41,7 @@ body.boxed {
         background-position: 0% 51%
     }
 }
+
 /*
 #nav-button {
     color: white;
@@ -492,23 +493,103 @@ nav ul {
 }
 
 #topnav a {
-    color: white;
-    /*background-color: #8BC15C;*/
+    /*color: white;
+    background-color: #8BC15C;*/
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+
+#nav1 {
+    color: white;
+    background-image: url("../../images/fundacion/botones/nav1.jpg");
+}
+
+#nav1:hover {
+    color: #002A84;
+    background-image: url("../../images/fundacion/botones/nav1-hover.jpg");
+}
+
+#nav2 {
+    color: white;
+    background-image: url("../../images/fundacion/botones/nav2.jpg");
+}
+
+#nav2:hover {
+    color: #002A84;
+    background-image: url("../../images/fundacion/botones/nav2-hover.jpg");
+}
+#nav3 {
+    color: white;
+    background-image: url("../../images/fundacion/botones/nav3.jpg");
+}
+
+#nav3:hover {
+    color: #eeff00;
+    background-image: url("../../images/fundacion/botones/nav3-hover.jpg");
+}
+
 #topnav li li a, #topnav li.active li a {
-   /* color: #FFFFFF;
+    /* color: #FFFFFF;
     background: #002A84;*/
     font-weight: normal;
 }
 
 #topnav li.active a, #topnav a:hover {
-    color:#FF9900;
-    background-color: #ffffff;
+    /*color:#FF9900;
+    background-color: #ffffff;*/
 }
 
 #topnav ul li li:hover>a {
