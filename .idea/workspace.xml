@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b8ac723-9c75-4a43-b097-eb38224c7d0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Fundacion-V2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/education-elements/ejercicio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/education-elements/insulina.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/education-elements/nutricion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/education-elements/psicologia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/abdominales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/beneficios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/ejercicio-objetivo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/flexiones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/frustracion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/psicologia9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/sentadillas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education/trotar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-elements/ejercicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/education-elements/ejercicio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/education-elements/guia-pacientes-familia.html" beforeDir="false" afterPath="$PROJECT_DIR$/education-elements/guia-pacientes-familia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/education-elements/hipo-hiperglucemia.html" beforeDir="false" afterPath="$PROJECT_DIR$/education-elements/hipo-hiperglucemia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-elements/insulina.html" beforeDir="false" afterPath="$PROJECT_DIR$/education-elements/insulina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-elements/nutricion.html" beforeDir="false" afterPath="$PROJECT_DIR$/education-elements/nutricion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-elements/psicologia.html" beforeDir="false" afterPath="$PROJECT_DIR$/education-elements/psicologia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/education-elements/tipos-diabetes.html" beforeDir="false" afterPath="$PROJECT_DIR$/education-elements/tipos-diabetes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/styles/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/styles/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/education.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +47,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tesis/web_tesis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,11 +65,15 @@
       <updated>1605625134464</updated>
       <workItem from="1605625135581" duration="10895000" />
       <workItem from="1605735129368" duration="28000" />
+      <workItem from="1605798600491" duration="7465000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605735154728">
