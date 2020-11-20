@@ -6,10 +6,23 @@ Author URI: https://www.os-templates.com/
 Licence: <a href="https://www.os-templates.com/template-terms">Website Template Licence</a>
 */
 
-html{overflow-y:scroll;}
+html{overflow-y:scroll; scroll-behavior: smooth;}
 
-body{margin:0; padding:0; font-size:14px; color:#919191; background-color:#232323;}
+body{margin:0; padding:0; font-size:14px; color:#ffffff; background-color:#002A84;}
 body.boxed{color:#919191; background-color:#000000;}
+
+#fondo{
+    background: linear-gradient(90deg, #002a84, #002a84, #ffffff, #ffffff, #ee8d00, #ee8d00);
+    background-size: 1200% 1200%;
+
+    animation: fondo 60s ease infinite;
+}
+
+@keyframes fondo {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
 
 .justify{text-align:justify;}
 .bold{font-weight:bold;}
@@ -44,9 +57,9 @@ address, article, aside, figcaption, figure, footer, header, nav, section{displa
 
 div.wrapper, .wrapper100{display:block; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
 
-.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
-.row2{color:#919191; background-color:#232323; border-bottom:1px solid #333333;}
-.row3{color:#666666; background-color:#FFFFFF;}
+.row1, .row1 a{color:#002A84; background-color:#ffffff;}
+.row2{color:#919191; background-color:#002A84; border-bottom:1px solid #002A84;}
+.row3{color:#000000; background-color:#FFFFFF; text-align: center;}
 .row4, .row4 a{color:#919191; background-color:#232323;}
 .row5{color:#666666; background-color:#FFFFFF; border-bottom:1px solid #E5E4E3;}
 
@@ -82,7 +95,7 @@ nav ul{margin:0; padding:0; list-style:none;}
 #container section{margin-bottom:50px;}
 #container section.last{margin-bottom:0;}
 
-.emphasise, #container .emphasise{font-size:2.8em; line-height:1.4em;}
+.emphasise, #container .emphasise{font-size:2em; line-height:1.8em;}
 
 .font-small, #container .font-small{font-size:1em;}
 .font-medium, #container .font-medium{font-size:1.2em;}
@@ -109,7 +122,7 @@ nav ul{margin:0; padding:0; list-style:none;}
 
 #footer form label{display:block; width:100%; margin:0 0 18px 0;}
 #footer form label input{margin-top:5px;}
-#footer form label input, #footer form textarea{color:#FFFFFF; background-color:#333333; border-color:#666666;}
+#footer form label input, #footer form textarea{color:#000000; background-color:#ffffff; border-color:#666666;}
 #footer form textarea{height:120px;}
 
 /*----------------------------------------------Copyright-------------------------------------*/
@@ -123,8 +136,8 @@ nav ul{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
 
-#topnav{padding:0; color:#C0BAB6; background-color:#232323; clear:both; word-wrap:normal; white-space:nowrap;}
-#topnav ul{margin:0; padding:0; list-style:none; text-transform:uppercase; font-size:12px;}
+#topnav{padding:0; color:#ffffff; background-color:#002A84; clear:both; word-wrap:normal; white-space:nowrap;}
+#topnav ul{margin:0; padding:0; list-style:none; text-transform:uppercase; font-size:20px;}
 #topnav ul ul{z-index:9999; position:absolute; width:190px; text-transform:none;}
 #topnav ul ul ul, #topnav ul ul ul ul{left:190px; top:0;}
 #topnav ul:first-child li:last-child > ul{right:0;}
@@ -137,9 +150,9 @@ nav ul{margin:0; padding:0; list-style:none;}
 #topnav li li a{display:block; margin:0; padding:10px 15px;}
 #topnav ul ul{display:none;}
 #topnav ul li:hover > ul{display:block;}
-#topnav a{color:#C0BAB6; background-color:#232323; font-weight:bold;}
-#topnav li li a, #topnav li.active li a{color:#FFFFFF; background:#000000; font-weight:normal;}
-#topnav li.active a, #topnav a:hover{color:#FF9900; background-color:#232323;}
+#topnav a{color:#ffffff; background-color:#002A84; font-weight:bold;}
+#topnav li li a, #topnav li.active li a{color:#FFFFFF; background:#002A84; font-weight:normal;}
+#topnav li.active a, #topnav a:hover{color:#FF9900; background-color:#002A84;}
 #topnav ul li li:hover > a{color:#FFFFFF; background-color:#FF9900;}
 #topnav li a.drop, #topnav li.active a.drop{padding-left:15px; background-image:url("images/dropdown_side.gif"); background-position:5px center; background-repeat:no-repeat;}
 
