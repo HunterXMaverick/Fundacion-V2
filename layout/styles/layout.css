@@ -504,6 +504,7 @@ nav ul {
 .icon-bar {
     position: fixed;
     top: 50%;
+    right: 0px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -519,7 +520,8 @@ nav ul {
   }
   
   .icon-bar a:hover {
-    background-color: #000;
+    background-color: #000000;
+    color: white;
   }
   
   .facebook {
@@ -532,13 +534,13 @@ nav ul {
     color: white;
   }
   
-  .google {
-    background: #dd4b39;
+  .blog {
+    background: #FD6502;
     color: white;
   }
   
-  .linkedin {
-    background: #007bb5;
+  .instagram {
+    background: #ffffff;
     color: white;
   }
   
@@ -554,31 +556,41 @@ nav ul {
 
 #nav1 {
     color: white;
-    background-image: url("../../images/fundacion/botones/nav1.jpg");
-}
-
-#nav1:hover {
-    color: #002A84;
-    background-image: url("../../images/fundacion/botones/nav1-hover.jpg");
+    background-image: url("../../images/fundacion/botones/nav1.png");
 }
 
 #nav2 {
     color: white;
-    background-image: url("../../images/fundacion/botones/nav2.jpg");
+    background-image: url("../../images/fundacion/botones/nav2.png");
 }
 
-#nav2:hover {
-    color: #002A84;
-    background-image: url("../../images/fundacion/botones/nav2-hover.jpg");
-}
 #nav3 {
     color: white;
-    background-image: url("../../images/fundacion/botones/nav3.jpg");
+    background-image: url("../../images/fundacion/botones/nav3.png");
+}
+#nav4 {
+    color: white;
+    background-image: url("../../images/fundacion/botones/nav4.png");
 }
 
-#nav3:hover {
-    color: #eeff00;
-    background-image: url("../../images/fundacion/botones/nav3-hover.jpg");
+#nav5 {
+    color: white;
+    background-image: url("../../images/fundacion/botones/nav5.png");
+}
+
+#nav6 {
+    color: white;
+    background-image: url("../../images/fundacion/botones/nav6.png");
+}
+
+#nav7 {
+    color: white;
+    background-image: url("../../images/fundacion/botones/nav7.png");
+}
+
+#nav8 {
+    color: white;
+    background-image: url("../../images/fundacion/botones/nav8.png");
 }
 
 #topnav li li a, #topnav li.active li a {
@@ -588,8 +600,9 @@ nav ul {
 }
 
 #topnav li.active a, #topnav a:hover {
-    /*color:#FF9900;
-    background-color: #ffffff;*/
+    color:#FD6502;
+    background-image: url("../../images/fundacion/botones/nav-hover.jpg");
+    /*background-color: #ffffff;*/
 }
 
 #topnav ul li li:hover>a {
