@@ -3,11 +3,6 @@
     height: 470px;
 }
 
-.carouse2-inner img {
-    width: auto;
-    height: 200px;
-}
-
 .img2 img{
     width: 100%;
     height: 350px;
@@ -18,12 +13,24 @@
     height: 250px;
 }
 
-.hola div{
-    background-color: yellow;
-}
-
 .rowHola {
     color: #000000;
-    background-color: #e4e0e0;
+    background-color: #ffffff;
+    
+}
+
+.rowHola2 {
+    color: #000000;
+    background-color: #dadada;
+    
+}
+
+.rowF {
+    color: #000000;
+    background-color: #76dadd;
     border-bottom: 1px solid #333333;
+}
+
+.hola{
+    text-align: center;
 }
