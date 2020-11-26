@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../../layout/styles/main.css" rel="stylesheet" type="text/css" media="all">
     <link href="../../layout/styles/mediaqueries.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../../layout/styles/gallery.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../../layout/styles/lightbox.min.css" rel="stylesheet" type="text/css" media="all">
     <!--Font-Awesome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -70,48 +72,36 @@
             </div>
             <!-- ################################################################################################ -->
             <div class="three_quarter">
-                <section class="clear">
-                    <!-- <h1>&lt;h1&gt; to &lt;h6&gt; - Headline Colour and Size Are All The Same</h1> -->
-                    <center>
-                        <h1>
-                            Nuestros Proyectos
-                        </h1>
-                    </center>
-                    <figure class="imgr boxholder"></figure>
-                    <div class="w3-col s6 m3 l2 exp tarjeta_wrap">
-                        <div class="tarjeta">
-                            <img class="imEx adelante" src="../../images/nosotros/campo1.jpg" alt="Actuaria">
-                            <div class="atras tarjeta">
-                                <p>
-                                    <a href="https://www.facebook.com/media/set/?vanity=fdjecuador&set=a.3235489093210211"
-                                        target="_blank" rel="noopener noreferrer"><ins class="w3-text-white">Más
-                                            Información</ins></a>
-                                </p>
-                            </div>
+                <section>
+                    <h1>Galeria de fotos</h1>
+                    <p><strong>Campo amigo 2020 </strong><a href="">Ver mas...</a></p>
+                    <div class="gallery-container">
+                        <div class="gallery-card">
+                            <a href="../../images/nosotros/campo1.jpg" data-lightbox="roadtrip" data-title="Campo amigo 2020."><img src="../../images/nosotros/campo1.jpg" alt=""></a>
+                        </div>
+                        <div class="gallery-card">
+                            <a href="../../images/nosotros/campo2.jpg" data-lightbox="roadtrip" data-title="Campo amigo 2019."><img src="../../images/nosotros/campo2.jpg" alt=""></a>
+                        </div>
+                        <div class="gallery-card">
+                            <a href="../../images/nosotros/campo3.jpg" data-lightbox="roadtrip" data-title="Campo amigo 2018."><img src="../../images/nosotros/campo3.jpg" alt=""></a>
+                        </div>
+                        <div class="gallery-card">
+                            <a href="../../images/nosotros/jornadas.jpg" data-lightbox="roadtrip" data-title="Campo amigo 2017."><img src="../../images/nosotros/jornadas.jpg" alt=""></a>
                         </div>
                     </div>
-                    <div class="w3-col s6 m3 l2 exp tarjeta_wrap">
-                        <div class="tarjeta">
-                            <img class="imEx adelante" src="../../images/nosotros/campo2.jpg" alt="Actuaria">
-                            <div class="atras tarjeta">
-                                <p>
-                                    <a href="https://www.facebook.com/media/set/?vanity=fdjecuador&set=a.3235489093210211"
-                                        target="_blank" rel="noopener noreferrer"><ins class="w3-text-white">Más
-                                            Información</ins></a>
-                                </p>
-                            </div>
+                    <p><strong>Apoyo humanitario 2020 </strong><a href="">Ver mas</a></p>
+                    <div class="gallery-container">
+                        <div class="gallery-card">
+                            <a href="../../images/nosotros/mision.jpg" data-lightbox="roadtrip" data-title="Campo amigo 2016."><img src="../../images/nosotros/mision.jpg" alt=""></a>
                         </div>
-                    </div>
-                    <div class="w3-col s6 m3 l2 exp tarjeta_wrap">
-                        <div class="tarjeta">
-                            <img class="imEx adelante" src="../../images/nosotros/campo3.jpg" alt="Actuaria">
-                            <div class="atras tarjeta">
-                                <p>
-                                    <a href="https://www.facebook.com/media/set/?vanity=fdjecuador&set=a.3235489093210211"
-                                        target="_blank" rel="noopener noreferrer"><ins class="w3-text-white">Más
-                                            Información</ins></a>
-                                </p>
-                            </div>
+                        <div class="gallery-card">
+                            <a href="../../images/nosotros/nosostros1.jpg" data-lightbox="roadtrip" data-title="Campo amigo 2015."><img src="../../images/nosotros/nosostros1.jpg" alt=""></a>
+                        </div>
+                        <div class="gallery-card">
+                            <a href="../../images/nosotros/e1.jpg" data-lightbox="roadtrip" data-title="Campo amigo 2016."><img src="../../images/nosotros/e1.jpg" alt=""></a>
+                        </div>
+                        <div class="gallery-card">
+                            <a href="../../images/nosotros/e2.jpg" data-lightbox="roadtrip" data-title="Campo amigo 2015."><img src="../../images/nosotros/e2.jpg" alt=""></a>
                         </div>
                     </div>
                 </section>
@@ -130,13 +120,15 @@
         </div>
     </div>
     <!-- Scripts -->
+    <script src="../../layout/scripts/lightbox-plus-jquery.min.js"></script>
+    <script src="../../layout/scripts/jquery-ui.min.js"></script>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
     <script>window.jQuery || document.write('<script src="../layout/scripts/jquery-latest.min.js"><\/script>\
 <script src="../layout/scripts/jquery-ui.min.js"><\/script>')</script>
     <script>jQuery(document).ready(function ($) { $('img').removeAttr('width height'); });</script>
-    <script src="../layout/scripts/jquery-mobilemenu.min.js"></script>
-    <script src="../layout/scripts/custom.js"></script>
+    <script src="../../layout/scripts/jquery-mobilemenu.min.js"></script>
+    <script src="../../layout/scripts/custom.js"></script>
 </body>
 
 </html>

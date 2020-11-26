@@ -1,0 +1,45 @@
+.gallery-container {
+    width: 100%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1.5em;
+}
+
+.gallery-container .gallery-card {
+    overflow: hidden;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container .gallery-card a {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-container .gallery-card a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: all .5s;
+}
+
+.gallery-container .gallery-card::before {
+    content: url('../../images/galeria/eye.png');
+    position: absolute;
+    opacity: 0;
+    transform: scale(0.04);
+}
+
+.gallery-container .gallery-card a > img:hover {
+    transform: scale(1.2);
+    filter: blur(3px);
+    opacity: 0.4;
+}
+
+.gallery-container .gallery-card:hover::before {
+    opacity: 1;
+}
