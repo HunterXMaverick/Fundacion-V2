@@ -11,7 +11,7 @@ Licence: <a href="https://www.os-templates.com/template-terms">Website Template 
 /* 240 + 320px */
 
 @media screen and (min-width:180px) and (max-width:360px) {
-	#header, #topnav, #intro, #container, #footer, #copyright{max-width:95%; margin:0 auto;}
+	#header, #topnav, #intro, #container, #footer, #copyright{max-width:80%; margin:0 auto;}
 	
 	#topnav ul{display:none;}
 	form input[type="submit"]{margin-bottom:10px;}
@@ -51,7 +51,7 @@ Licence: <a href="https://www.os-templates.com/template-terms">Website Template 
 /* 480px */
 
 @media screen and (min-width:361px) and (max-width:615px) {
-	#header, #topnav, #intro, #container, #footer, #copyright{max-width:95%; margin:0 auto;}
+	#header, #topnav, #intro, #container, #footer, #copyright{max-width:80%; margin:0 auto;}
 	
 	#topnav ul{display:none;}
 	form input[type="submit"]{margin-bottom:10px;}
@@ -87,7 +87,7 @@ Licence: <a href="https://www.os-templates.com/template-terms">Website Template 
 /* 768px */
 
 @media screen and (min-width:616px) and (max-width:800px) {
-	#header, #topnav, #intro, #container, #footer, #copyright{max-width:95%; margin:0 auto;}
+	#header, #topnav, #intro, #container, #footer, #copyright{max-width:85%; margin:0 auto;}
 	
 	#topnav ul{display:none;}
 	form input[type="submit"]{margin-bottom:10px;}
@@ -104,13 +104,13 @@ Licence: <a href="https://www.os-templates.com/template-terms">Website Template 
 /* 960px */
 
 @media screen and (min-width:960px) {
-	#header, #topnav, #intro, #container, #footer, #copyright{max-width:95%; margin:0 auto;}
+	#header, #topnav, #intro, #container, #footer, #copyright{max-width:92%; margin:0 auto;}
 }
 
 /* 1028px */
 
 @media screen and (min-width:1028px) {
-	#header, #topnav, #intro, #container, #footer, #copyright{max-width:95%; margin:0 auto;}
+	#header, #topnav, #intro, #container, #footer, #copyright{max-width:93%; margin:0 auto;}
 }
 
 /* 1200px */

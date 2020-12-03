@@ -259,6 +259,7 @@ nav ul {
 }
 
 #header, #topnav, #intro, #container, #footer, #copyright {
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -658,7 +659,7 @@ nav ul {
   display: block;
   height: 30px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 #topnav form select {
