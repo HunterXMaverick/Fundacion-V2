@@ -32,13 +32,13 @@ body.boxed {
 
 @keyframes fondo {
   0% {
-      background-position: 0% 51%
+    background-position: 0% 51%
   }
   50% {
-      background-position: 100% 50%
+    background-position: 100% 50%
   }
   100% {
-      background-position: 0% 51%
+    background-position: 0% 51%
   }
 }
 
@@ -90,6 +90,12 @@ body.boxed {
 }
 
 a {
+  color: #002A84;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
   color: #FF9900;
   outline: none;
   text-decoration: none;
@@ -116,9 +122,16 @@ img {
 
 #img_insumo {
   height: 325px;
- /* display: block;
+  /* display: block;
   margin: auto;*/
   border-radius: 5px;
+}
+
+#img_alianzas {
+  height: 220px;
+  display: block;
+  /* margin: auto;
+  border-radius: 5px;*/
 }
 
 .boxholder {
@@ -197,6 +210,7 @@ div.wrapper, .wrapper100 {
 .row4, .row4 a {
   color: #919191;
   background-color: #232323;
+  font-size: 18px;
 }
 
 .row5 {
@@ -222,6 +236,7 @@ h1 {
   font-weight: normal;
   line-height: normal;
 }
+
 h2 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
@@ -229,6 +244,7 @@ h2 {
   font-weight: normal;
   line-height: normal;
 }
+
 h3 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
@@ -236,6 +252,7 @@ h3 {
   font-weight: normal;
   line-height: normal;
 }
+
 h4 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
@@ -243,6 +260,7 @@ h4 {
   font-weight: normal;
   line-height: normal;
 }
+
 h5 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
@@ -250,6 +268,7 @@ h5 {
   font-weight: normal;
   line-height: normal;
 }
+
 p {
   margin: 0 0 30px 0;
   font-size: 1.3em;
@@ -257,6 +276,7 @@ p {
   font-weight: normal;
   line-height: normal;
 }
+
 .hola p {
   margin: 0 0 30px 0;
   font-size: 2em;
@@ -264,6 +284,7 @@ p {
   font-weight: normal;
   line-height: normal;
 }
+
 li {
   margin: 0 0 30px 0;
   font-size: 1.3em;
@@ -271,6 +292,7 @@ li {
   font-weight: normal;
   line-height: normal;
 }
+
 td {
   margin: 0 0 30px 0;
   font-size: 1.3em;
@@ -278,6 +300,7 @@ td {
   font-weight: normal;
   line-height: normal;
 }
+
 tr {
   margin: 0 0 30px 0;
   font-size: 1.3em;
@@ -630,18 +653,19 @@ nav ul {
 
 #nav1 {
   color: white;
-  background-color:#0044FF;
+  background-color: #0044FF;
 }
 
 #nav2 {
   color: white;
-  background-color:#FF9900;
+  background-color: #FF9900;
 }
 
 #nav3 {
   color: white;
-  background-color:#FF5D15;
+  background-color: #FF5D15;
 }
+
 #nav4 {
   color: white;
   background-color: #FF2CAE;
@@ -649,22 +673,22 @@ nav ul {
 
 #nav5 {
   color: white;
-  background-color:#8BBF00;
+  background-color: #8BBF00;
 }
 
 #nav6 {
   color: white;
-  background-color:#0087CB;
+  background-color: #0087CB;
 }
 
 #nav7 {
   color: white;
-  background-color:#EE1133;
+  background-color: #EE1133;
 }
 
 #nav8 {
   color: white;
-  background-color:#AA22AA;
+  background-color: #AA22AA;
 }
 
 #topnav li li a, #topnav li.active li a {
@@ -674,9 +698,9 @@ nav ul {
 }
 
 #topnav li.active a, #topnav a:hover {
-  color:#FD6502;
-  background-image: url("../../images/fundacion/botones/nav-hover.jpg");
-  /*background-color: #ffffff;*/
+  color: #FD6502;
+  /* background-image: url("../../images/fundacion/botones/nav-hover.jpg");*/
+  background-color: #ffffff;
 }
 
 #topnav ul li li:hover>a {
@@ -743,7 +767,7 @@ nav ul {
   display: block;
   margin: 0;
   padding: 5px 10px 5px 20px;
-  color: #666666;
+  color: #000000;
   background-color: inherit;
   background: url("images/orange_file.gif") no-repeat 10px center;
   text-decoration: none;
