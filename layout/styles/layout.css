@@ -90,13 +90,13 @@ body.boxed {
 }
 
 a {
-  color: #FF9900;
+  color: #002A84;
   outline: none;
   text-decoration: none;
 }
 
 a:hover {
-  color: #002A84;
+  color: #FF9900;
   outline: none;
   text-decoration: none;
 }
@@ -122,9 +122,16 @@ img {
 
 #img_insumo {
   height: 325px;
- /* display: block;
+  /* display: block;
   margin: auto;*/
   border-radius: 5px;
+}
+
+#img_alianzas {
+  height: 220px;
+  display: block;
+  /* margin: auto;
+  border-radius: 5px;*/
 }
 
 .boxholder {
@@ -196,17 +203,18 @@ div.wrapper, .wrapper100 {
 }
 
 .row3 {
-  color: #666666;
+  color: #000000;
   background-color: #FFFFFF;
 }
 
 .row4, .row4 a {
   color: #919191;
   background-color: #232323;
+  font-size: 18px;
 }
 
 .row5 {
-  color: #666666;
+  color: #000000;
   background-color: #FFFFFF;
   border-bottom: 1px solid #E5E4E3;
 }
@@ -217,10 +225,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
@@ -228,7 +240,7 @@ h1 {
 h2 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
@@ -236,7 +248,7 @@ h2 {
 h3 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
@@ -244,7 +256,7 @@ h3 {
 h4 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
@@ -252,18 +264,50 @@ h4 {
 h5 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
 
-/* p {
+p {
   margin: 0 0 30px 0;
-  font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
-} */
+}
+
+.hola p {
+  margin: 0 0 30px 0;
+  font-size: 2em;
+  font-family: "Roma";
+  font-weight: normal;
+  line-height: normal;
+}
+
+li {
+  margin: 0 0 30px 0;
+  font-size: 1.3em;
+  font-family: "Roma";
+  font-weight: normal;
+  line-height: normal;
+}
+
+td {
+  margin: 0 0 30px 0;
+  font-size: 1.3em;
+  font-family: "Roma";
+  font-weight: normal;
+  line-height: normal;
+}
+
+tr {
+  margin: 0 0 30px 0;
+  font-size: 1.3em;
+  font-family: "Roma";
+  font-weight: normal;
+  line-height: normal;
+}
 
 address {
   margin: 10px 0;
@@ -480,12 +524,11 @@ nav ul {
 }
 
 #topnav ul {
-  margin: 0 0 0;
-  /*padding: 0 0 0 11%;*/
+  margin: 0;
   padding: 0;
   list-style: none;
   text-transform: uppercase;
-  /*font-size: 12px;*/
+  font-size: 12px;
 }
 
 #topnav ul ul {
@@ -512,7 +555,7 @@ nav ul {
   position: relative;
   display: block;
   float: left;
-  margin: 0 5px 0 0;
+  margin: 0 30px 0 0;
   padding: 0;
 }
 
@@ -549,7 +592,7 @@ nav ul {
 #topnav a {
   /*color: white;
   background-color: #8BC15C;*/
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
   font-weight: bold;
@@ -655,9 +698,9 @@ nav ul {
 }
 
 #topnav li.active a, #topnav a:hover {
-  color: #002A84;
-  background-color: white;
-  /*background-color: #ffffff;*/
+  color: #FD6502;
+  /* background-image: url("../../images/fundacion/botones/nav-hover.jpg");*/
+  background-color: #ffffff;
 }
 
 #topnav ul li li:hover>a {
@@ -724,7 +767,7 @@ nav ul {
   display: block;
   margin: 0;
   padding: 5px 10px 5px 20px;
-  color: #666666;
+  color: #000000;
   background-color: inherit;
   background: url("images/orange_file.gif") no-repeat 10px center;
   text-decoration: none;
