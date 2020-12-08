@@ -1,0 +1,36 @@
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.img2 img{
+    width: 100%;
+    height: auto;
+}
+
+.img3 img{
+    width: 350px;
+    height: auto;
+}
+
+.rowHola {
+    color: #000000;
+    background-color: #ffffff;
+    
+}
+
+.rowHola2 {
+    color: #000000;
+    background-color: #dadada;
+    
+}
+
+.rowF {
+    color: #000000;
+    background-color: #76dadd;
+    border-bottom: 1px solid #333333;
+}
+
+.hola{
+    text-align: center;
+}
