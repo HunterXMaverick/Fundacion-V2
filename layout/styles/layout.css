@@ -114,6 +114,13 @@ img {
   vertical-align: middle;
 }
 
+#img_insumo {
+  height: 325px;
+ /* display: block;
+  margin: auto;*/
+  border-radius: 5px;
+}
+
 .boxholder {
   padding: 9px;
   border: 1px solid #D6D6D6;
@@ -183,7 +190,7 @@ div.wrapper, .wrapper100 {
 }
 
 .row3 {
-  color: #666666;
+  color: #000000;
   background-color: #FFFFFF;
 }
 
@@ -193,7 +200,7 @@ div.wrapper, .wrapper100 {
 }
 
 .row5 {
-  color: #666666;
+  color: #000000;
   background-color: #FFFFFF;
   border-bottom: 1px solid #E5E4E3;
 }
@@ -204,48 +211,80 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
 h2 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
 h3 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
 h4 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
 h5 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
 }
-/* p {
+p {
   margin: 0 0 30px 0;
-  font-size: 1.8em;
-  font-family: "CaviarDreamsBold", Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-family: "Roma";
   font-weight: normal;
   line-height: normal;
-} */
+}
+.hola p {
+  margin: 0 0 30px 0;
+  font-size: 2em;
+  font-family: "Roma";
+  font-weight: normal;
+  line-height: normal;
+}
+li {
+  margin: 0 0 30px 0;
+  font-size: 1.3em;
+  font-family: "Roma";
+  font-weight: normal;
+  line-height: normal;
+}
+td {
+  margin: 0 0 30px 0;
+  font-size: 1.3em;
+  font-family: "Roma";
+  font-weight: normal;
+  line-height: normal;
+}
+tr {
+  margin: 0 0 30px 0;
+  font-size: 1.3em;
+  font-family: "Roma";
+  font-weight: normal;
+  line-height: normal;
+}
 
 address {
   margin: 10px 0;
@@ -591,41 +630,41 @@ nav ul {
 
 #nav1 {
   color: white;
-  background-image: url("../../images/fundacion/botones/nav1.png");
+  background-color:#0044FF;
 }
 
 #nav2 {
   color: white;
-  background-image: url("../../images/fundacion/botones/nav2.png");
+  background-color:#FF9900;
 }
 
 #nav3 {
   color: white;
-  background-image: url("../../images/fundacion/botones/nav3.png");
+  background-color:#FF5D15;
 }
 #nav4 {
   color: white;
-  background-image: url("../../images/fundacion/botones/nav4.png");
+  background-color: #FF2CAE;
 }
 
 #nav5 {
   color: white;
-  background-image: url("../../images/fundacion/botones/nav5.png");
+  background-color:#8BBF00;
 }
 
 #nav6 {
   color: white;
-  background-image: url("../../images/fundacion/botones/nav6.png");
+  background-color:#0087CB;
 }
 
 #nav7 {
   color: white;
-  background-image: url("../../images/fundacion/botones/nav7.png");
+  background-color:#EE1133;
 }
 
 #nav8 {
   color: white;
-  background-image: url("../../images/fundacion/botones/nav8.png");
+  background-color:#AA22AA;
 }
 
 #topnav li li a, #topnav li.active li a {
