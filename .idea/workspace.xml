@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b83ce2a-d17f-4da6-a88c-0756631e4903" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Contacto/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Contacto/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Education/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/educacion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Education/ejercicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/ejercicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Education/guia-pacientes-familia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/guia-pacientes-familia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Education/hipo-hiperglucemia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/hipo-hiperglucemia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Education/insulina.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/insulina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Education/nutricion.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/nutricion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Education/psicologia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/psicologia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Education/tipos-diabetes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/tipos-diabetes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Galeria/galeria copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Galeria/galeria copy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Galeria/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Galeria/galeria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Servicio/insumos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Servicio/insumos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Servicio/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Servicio/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/nosotros/campo_amigo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros/campo_amigo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/nosotros/escuela.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros/escuela.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/nosotros/nosotros.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros/nosotros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/nosotros/principios_trabajo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros/principios_trabajo.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lQle2q4Vv3Rsfp7VwpjaOPr6rp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b83ce2a-d17f-4da6-a88c-0756631e4903" name="Default Changelist" comment="" />
+      <created>1607537288082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607537288082</updated>
+      <workItem from="1607537289329" duration="6014000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
