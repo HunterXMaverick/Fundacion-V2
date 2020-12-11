@@ -119,6 +119,26 @@ img {
   line-height: normal;
   vertical-align: middle;
 }
+#mapa {
+  width: auto;
+  max-width: 100%;
+  height: 250px;
+  display: block;
+  margin: auto;
+  padding: 0;
+  border: none;
+  line-height: normal;
+}
+#frame_facebook {
+  width: auto;
+  max-width: 100%;
+  height: ;
+  display: block;
+  margin: auto;
+  padding: 0;
+  border: none;
+  line-height: normal;
+}
 
 #img_insumo {
   height: 325px;
@@ -249,7 +269,7 @@ h3 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
   font-family: "Roma";
-  font-weight: normal;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -257,7 +277,7 @@ h4 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
   font-family: "Roma";
-  font-weight: normal;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -265,7 +285,7 @@ h5 {
   margin: 0 0 30px 0;
   font-size: 1.8em;
   font-family: "Roma";
-  font-weight: normal;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -775,7 +795,7 @@ nav ul {
 }
 
 .sidebar aside nav a:hover {
-  color: #FF9900;
+  color: #167BFF;
   background-color: inherit;
 }
 
