@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b83ce2a-d17f-4da6-a88c-0756631e4903" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Contacto/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Contacto/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Education/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/educacion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Education/ejercicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/ejercicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Education/guia-pacientes-familia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/guia-pacientes-familia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Education/hipo-hiperglucemia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/hipo-hiperglucemia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Education/insulina.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/insulina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Education/nutricion.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/nutricion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Education/psicologia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/psicologia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Education/tipos-diabetes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Educacion/tipos-diabetes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Galeria/galeria copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Galeria/galeria copy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galeria/img/101_2115-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galeria/img/101_2251-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galeria/img/101_2369-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galeria/img/101_3412-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galeria/img/DSC_0885-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galeria/img/IMG_3837-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galeria/img/P1000170-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galeria/img/P7240011-min.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Galeria/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Galeria/galeria.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Servicio/insumos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Servicio/insumos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Servicio/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Servicio/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nosotros/campo_amigo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros/campo_amigo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nosotros/escuela.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros/escuela.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nosotros/nosotros.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros/nosotros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nosotros/principios_trabajo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros/principios_trabajo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607537288082</updated>
       <workItem from="1607537289329" duration="6014000" />
+      <workItem from="1607730828983" duration="418000" />
     </task>
     <servers />
   </component>
