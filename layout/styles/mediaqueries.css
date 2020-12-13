@@ -43,7 +43,7 @@ Licence: <a href="https://www.os-templates.com/template-terms">Website Template 
 	#footer #ft_gallery li, #footer #ft_gallery .first{display:inline-block; float:left; width:auto; margin:0 10px 10px 0; padding:0; clear:none;}
 	#footer #ft_gallery li img{}
 	
-	#header, #copyright{text-align:center;}
+	#header, #copyright{text-align:center; font-size: 13px;}
 	#copyright p{float:none; line-height:1.6em;}
 	#copyright p:first-child{margin-bottom:8px;}
 }
