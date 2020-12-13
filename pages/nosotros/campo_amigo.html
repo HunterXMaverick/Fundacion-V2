@@ -2,11 +2,13 @@
 <html>
 
 <head>
-    <title>FDJE | Nosotros</title>
+    <title>FDJE | Servicios</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../../layout/styles/main.css" rel="stylesheet" type="text/css" media="all">
     <link href="../../layout/styles/mediaqueries.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../../layout/styles/gallery.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../../layout/styles/lightbox.min.css" rel="stylesheet" type="text/css" media="all">
     <!--Font-Awesome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -14,9 +16,7 @@
         integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
         integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
-
 </head>
-
 
 <body class="">
     <!-- iconos de redes sociales -->
@@ -41,16 +41,14 @@
             </div>
         </header>
     </div>
-    </div>
-    <!-- ################################################################################################ -->
+    <!-- menu -->
     <div class="wrapper row2">
         <nav id="topnav">
             <ul class="clear">
                 <li><a id="nav1" href="../../index.html" title="Homepage"><i class="fas fa-home"></i>
                         Inicio</a>
                 </li>
-                <li class="active"><a id="nav2" href="../nosotros/nosotros.html" title="Pages"><i
-                            class="fas fa-address-card"></i>
+                <li class="active"><a id="nav2" href="../nosotros/nosotros.html" title="Pages"><i class="fas fa-address-card"></i>
                         Nosotros</a>
                 <li><a id="nav3" href="../Education/education.html" title="Homepage"><i class="fas fa-book-reader"></i>
                         Educación</a>
@@ -61,18 +59,20 @@
                 <li><a id="nav5" href="../Servicio/insumos.html" title="Link Text"><i class="fas fa-book-medical"></i>
                         Venta de
                         Insumos</a></li>
-                <li><a id="nav7" href="../Galeria/galeria.html" title="Link Text"><i class="fas fa-images"></i>
-                        Galeria</a></li>
+                <li class="active"><a id="nav7" href="../Galeria/galeria.html" title="Link Text"><i
+                            class="fas fa-images"></i>
+                        Galería</a></li>
                 <li><a id="nav6" href="../Contacto/contact.html" title="Link Text"><span
                             class="icon-envelope-alt"></span>
                         Contáctanos</a></li>
             </ul>
         </nav>
     </div>
-    <!-- content -->
+    <!-- content  NO SE MUEVEN LOS DIV PRINCIPALES -->
     <div class="wrapper row3" style="background-image: url(../../images/index/fondo.png);">
         <div id="container">
             <!-- ################################################################################################ -->
+
             <div id="sidebar_1" class="sidebar one_quarter first">
                 <aside>
                     <nav>
@@ -85,6 +85,14 @@
                             <li><a href="./escuela.html">Escuela </a></li>
                         </ul>
                     </nav>
+                    <section>
+                        <h2>Facebook</h2>
+                        <iframe
+                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffdjecuador&tabs=timeline&width=260&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                width="260" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                allowfullscreen="true"
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </section>
                     <!-- ########################################################################################## -->
                 </aside>
             </div>
@@ -118,6 +126,12 @@
                         campistas, monitores, profesionales y todo el equipo de la FDJE, sin duda es un lugar donde el
                         cariño se expresa totalmente.
                     </p>
+                    <ul>
+                        <li class="one_half first"><a href="#"><img
+                                    src="../../images/nosotros/campo amigo/CAE (2).jpg"></a></li>
+                        <li class="one_half"><a href="#"><img src="../../images/nosotros/campo amigo/cae003.jpg"></a>
+                        </li>
+                    </ul>
                     <hr>
                     <br>
                     <center>
@@ -135,14 +149,16 @@
                             todos
                             participen de una manera activo.</li> <br>
                     </ul>
-                    <figure class="imgr boxholder"></figure>
-                    <img src="../images/campo1.jpg" alt="">
-                    <img src="../images/campo2.jpg" alt="">
-                    <img src="../images/campo3.jpg" alt="">
-                    <br>
+                    <ul>
+                        <li class="one_half first"><a href="#"><img
+                                    src="../../images/nosotros/campo amigo/cae014.jpg"></a></li>
+                        <li class="one_half"><a href="#"><img src="../../images/nosotros/campo amigo/CAAE.jpg"></a>
+                        </li>
+                    </ul>
                 </section>
 
             </div>
+
             <!-- ################################################################################################ -->
             <div class="clear"></div>
         </div>
@@ -187,13 +203,15 @@
         </div>
     </div>
     <!-- Scripts -->
+    <script src="../../layout/scripts/lightbox-plus-jquery.min.js"></script>
+    <script src="../../layout/scripts/jquery-ui.min.js"></script>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
     <script>window.jQuery || document.write('<script src="../layout/scripts/jquery-latest.min.js"><\/script>\
 <script src="../layout/scripts/jquery-ui.min.js"><\/script>')</script>
     <script>jQuery(document).ready(function ($) { $('img').removeAttr('width height'); });</script>
-    <script src="../layout/scripts/jquery-mobilemenu.min.js"></script>
-    <script src="../layout/scripts/custom.js"></script>
+    <script src="../../layout/scripts/jquery-mobilemenu.min.js"></script>
+    <script src="../../layout/scripts/custom.js"></script>
 </body>
 
 </html>
